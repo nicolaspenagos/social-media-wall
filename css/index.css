@@ -1,0 +1,11 @@
+#intro{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px; 
+   
+}
+
