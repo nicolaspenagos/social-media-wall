@@ -21,27 +21,30 @@
     margin-top: 2em;
     margin-bottom: 2em;
     font-family: 'Roboto', sans-serif;
-    width: 50%;
     margin: 0 auto;
     background: #EEEEEE;
     border: 2px solid #D9D9D9;
     width: 40em;
     margin-bottom: 20px;
+    position: relative;
 }
+
 .pQueue{
     display: flex;
     padding: 0.8em;
     align-items: center;
     justify-content: center;
     width: 40em;
+    height: 30px;
 }
 
 .uQueue{
     display: flex;
     font-size: x-small;
-    width: 40em;
-    justify-content: right;
-    align-items: right;
+    top: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
 }
 
 .piQueue{
