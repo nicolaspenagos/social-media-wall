@@ -1,3 +1,12 @@
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * @author Nicolás Penagos Montoya
+ * nicolas.penagosm98@gmail.com
+ **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+ /*
+ *  Styles
+ */
 #intro{
     display: flex;
     flex-direction: column;
@@ -6,6 +15,61 @@
     align-items: center;
     margin: 0 auto;
     padding: 20px; 
-   
+}
+
+.postQueue{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    background: #EEEEEE;
+    border: 2px solid #D9D9D9;
+    width: 40em;
+    margin-bottom: 20px;
+}
+.pQueue{
+    display: flex;
+    padding: 0.8em;
+    align-items: center;
+    justify-content: center;
+    width: 40em;
+}
+
+.uQueue{
+    display: flex;
+    font-size: x-small;
+    width: 40em;
+    justify-content: right;
+    align-items: right;
+}
+
+.piQueue{
+    border: 0px solid #D9D9D9;
+    background: FFFFFF;
+    width: 40em;
+    height: 40px;
+  
+}
+
+.bQueue{
+    background-color: #4471C4;
+    width: 90px;
+    height: 3em;
+    margin-left: 8px;
+    color: white;
+}
+
+.icQueue{
+    border: 2px solid #D9D9D9;
+    background-color: #FFFFFF;
+}
+
+.acQueue{
+    display: flex;
+    border: 2px solid #D9D9D9;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
 }
 

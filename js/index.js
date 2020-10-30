@@ -25,7 +25,7 @@ post = () =>{
 
     let u = usernameInput.value;
     let p = postInput.value;
-
+    
     if(u == ''){
         alert('Username cannot be empty');
         usernameInput.value = '';
@@ -41,10 +41,13 @@ post = () =>{
     }
 
     let reference = database.ref('posts').push();
+    let ps = ['9dLEWtCNDOQarp$!FA&57kX'];
+
     let post = {
         id: reference.key,
         username: u,
         post: p,
+        posts: ps,
     }
     reference.set(post);
 
